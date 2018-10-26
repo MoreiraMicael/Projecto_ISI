@@ -1,0 +1,12 @@
+C:\Users\Moreira\source\repos\Projecto_ISI\Projecto_ISI\bin\Debug\Projecto_ISI.exe.config
+C:\Users\Moreira\source\repos\Projecto_ISI\Projecto_ISI\bin\Debug\Projecto_ISI.exe
+C:\Users\Moreira\source\repos\Projecto_ISI\Projecto_ISI\bin\Debug\Projecto_ISI.pdb
+C:\Users\Moreira\source\repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.csprojAssemblyReference.cache
+C:\Users\Moreira\source\repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.Form1.resources
+C:\Users\Moreira\source\repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.Properties.Resources.resources
+C:\Users\Moreira\source\repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.csproj.GenerateResource.cache
+C:\Users\Moreira\source\repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.csproj.CoreCompileInputs.cache
+C:\Users\Moreira\source\repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.exe
+C:\Users\Moreira\source\repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.pdb
+C:\Users\Moreira\source\repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.Form2.resources
+C:\Users\Moreira\source\repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.Form3.resources
