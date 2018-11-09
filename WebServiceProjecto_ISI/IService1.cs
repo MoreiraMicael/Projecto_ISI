@@ -12,19 +12,20 @@ namespace WebServiceProjecto_ISI
     [ServiceContract]
     public interface IService1
     {
-
+        [OperationContract]
+        List<Refeicao> GetRefeicoes();
     }
 
     [DataContract]
     public class Refeicao
     {
 
-        public Refeicao(string restaurante, string item, string quantidade, string calorias)
+        public Refeicao(string Restaurante, string Item, string Quantidade, string Calorias)
         {
-            this.Restaurante = restaurante;
-            this.Item = item;
-            this.Quantidade = quantidade;
-            this.Calorias = calorias;
+            this.Restaurante = Restaurante;
+            this.Item = Item;
+            this.Quantidade = Quantidade;
+            this.Calorias = Calorias;
         }
 
         [DataMember]
