@@ -1,0 +1,332 @@
+[
+ {
+   "restaurante": "kfc",
+   "Item": "Pedaço de Frango",
+   "Quantidade": "1 pedaço (93g)",
+   "Calorias": "197 kcal"
+ },
+ {
+   "restaurante": "kfc",
+   "Item": "Hot Wings",
+   "Quantidade": "2 hot wings (70g)",
+   "Calorias": "188 kcal"
+ },
+ {
+   "restaurante": "kfc",
+   "Item": "Brazer",
+   "Quantidade": "1 sanduíche (273g)",
+   "Calorias": "526 kcal"
+ },
+ {
+   "restaurante": "kfc",
+   "Item": "Tower",
+   "Quantidade": "1 dose (258g)",
+   "Calorias": "639 kcal"
+ },
+ {
+   "restaurante": "kfc",
+   "Item": "Twister",
+   "Quantidade": "1 dose (209g)",
+   "Calorias": "510 kcal"
+ },
+ {
+   "restaurante": "kfc",
+   "Item": "Daddy Burger",
+   "Quantidade": "1 unidade (273g)",
+   "Calorias": "615 kcal"
+ },
+ {
+   "restaurante": "noori",
+   "Item": "Box Salmão",
+   "Quantidade": "1 box (2 unidades)",
+   "Calorias": "167 kcal"
+ },
+ {
+   "restaurante": "noori",
+   "Item": "Spicy Tuna",
+   "Quantidade": "1 dose (150g)",
+   "Calorias": "176 kcal"
+ },
+ {
+   "restaurante": "pans-amp-company",
+   "Item": "Pasta de Atum",
+   "Quantidade": "1 sandes (260g)",
+   "Calorias": "779 kcal"
+ },
+ {
+   "restaurante": "pans-amp-company",
+   "Item": "Sandes Supremo de Frango",
+   "Quantidade": "1 sandes (247g)",
+   "Calorias": "640 kcal"
+ },
+ {
+   "restaurante": "pans-amp-company",
+   "Item": "Sandes Multicereais Queijo Fresco",
+   "Quantidade": "1 sandes (275g)",
+   "Calorias": "375 kcal"
+ },
+ {
+   "restaurante": "pans-amp-company",
+   "Item": "Frango",
+   "Quantidade": "1 baguette (223g)",
+   "Calorias": "469 kcal"
+ },
+ {
+   "restaurante": "pans-amp-company",
+   "Item": "Provençal",
+   "Quantidade": "1 sandes (233g)",
+   "Calorias": "531 kcal"
+ },
+ {
+   "restaurante": "pizza-hut",
+   "Item": "Cheeseham",
+   "Quantidade": "1 fatia (130g)",
+   "Calorias": "342 kcal"
+ },
+ {
+   "restaurante": "pizza-hut",
+   "Item": "Pão de Alho Supremo",
+   "Quantidade": "2 fatias (103g)",
+   "Calorias": "310 kcal"
+ },
+ {
+   "restaurante": "pizza-hut",
+   "Item": "Calzone Gamberi",
+   "Quantidade": "1 dose (444g)",
+   "Calorias": "497 kcal"
+ },
+ {
+   "restaurante": "pizza-hut",
+   "Item": "Mousse de Chocolate",
+   "Quantidade": "1 mousse (70g)",
+   "Calorias": "286 kcal"
+ },
+ {
+   "restaurante": "starbucks",
+   "Item": "Salada de Frutas",
+   "Quantidade": "100g",
+   "Calorias": "53 kcal"
+ },
+ {
+   "restaurante": "starbucks",
+   "Item": "Frappuccino de Caramelo (Tall)",
+   "Quantidade": "1 dose (354ml)",
+   "Calorias": "250 kcal"
+ },
+ {
+   "restaurante": "starbucks",
+   "Item": "Café Latte (Tall)",
+   "Quantidade": "1 dose (250ml)",
+   "Calorias": "100 kcal"
+ },
+ {
+   "restaurante": "starbucks",
+   "Item": "Caramel Macchiato (Grande)",
+   "Quantidade": "1 dose (473ml)",
+   "Calorias": "239 kcal"
+ },
+ {
+   "restaurante": "starbucks",
+   "Item": "Chocolate Mocha Flavour",
+   "Quantidade": "100ml",
+   "Calorias": "63 kcal"
+ },
+ {
+   "restaurante": "starbucks",
+   "Item": "Muffin de Mirtilos",
+   "Quantidade": "1 muffin (135g)",
+   "Calorias": "470 kcal"
+ },
+ {
+   "restaurante": "starbucks",
+   "Item": "Cinnamon Roll",
+   "Quantidade": "1 rolo (118g)",
+   "Calorias": "420 kcal"
+ },
+ {
+   "restaurante": "starbucks",
+   "Item": "Chocolate Chunk Cookie",
+   "Quantidade": "1 dose (84g)",
+   "Calorias": "380 kcal"
+ },
+ {
+   "restaurante": "starbucks",
+   "Item": "Seattle Latte",
+   "Quantidade": "100ml",
+   "Calorias": "70 kcal"
+ },
+ {
+   "restaurante": "starbucks",
+   "Item": "Vanilla Macchiato (Tall)",
+   "Quantidade": "1 dose (350ml)",
+   "Calorias": "185 kcal"
+ },
+ {
+   "restaurante": "subway",
+   "Item": "15 cm Frango Teriyaki",
+   "Quantidade": "1 dose (279g)",
+   "Calorias": "384 kcal"
+ },
+ {
+   "restaurante": "subway",
+   "Item": "15 cm Atum",
+   "Quantidade": "1 dose",
+   "Calorias": "414 kcal"
+ },
+ {
+   "restaurante": "subway",
+   "Item": "Cookie com Gotas de Chocolate",
+   "Quantidade": "1 dose (33g)",
+   "Calorias": "210 kcal"
+ },
+ {
+   "restaurante": "subway",
+   "Item": "15 cm Subway Melt",
+   "Quantidade": "1 dose (254g)",
+   "Calorias": "380 kcal"
+ },
+ {
+   "restaurante": "subway",
+   "Item": "15 cm Frango",
+   "Quantidade": "1 dose (241g)",
+   "Calorias": "315 kcal"
+ },
+ {
+   "restaurante": "subway",
+   "Item": "15 cm Peito de Peru",
+   "Quantidade": "1 dose",
+   "Calorias": "307 kcal"
+ },
+ {
+   "restaurante": "subway",
+   "Item": "15 cm BMT Italiano",
+   "Quantidade": "1 dose (242g)",
+   "Calorias": "450 kcal"
+ },
+ {
+   "restaurante": "subway",
+   "Item": "15cm Subway Club",
+   "Quantidade": "1 dose (275g)",
+   "Calorias": "350 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Pizza Carbonara",
+   "Quantidade": "1 fatia (76g)",
+   "Calorias": "235 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Pastel de Nata",
+   "Quantidade": "100g",
+   "Calorias": "302 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Pizza Funny Bacon",
+   "Quantidade": "1 fatia (75g)",
+   "Calorias": "207 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Pizza Especial da Casa",
+   "Quantidade": "1 fatia (76g)",
+   "Calorias": "235 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Pasta Carbonara",
+   "Quantidade": "100g",
+   "Calorias": "205 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Pizza Barbecue",
+   "Quantidade": "1 fatia (84g)",
+   "Calorias": "240 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Pizza Atlãntica",
+   "Quantidade": "1 fatia (71g)",
+   "Calorias": "196 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Pão de Alho Queijo",
+   "Quantidade": "2 unidades",
+   "Calorias": "367 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Pizza Cool Cheese",
+   "Quantidade": "1 fatia (76g)",
+   "Calorias": "204 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Pão de Alho com Queijo e Pepperoni",
+   "Quantidade": "2 unidades",
+   "Calorias": "402 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Pizza Burguer",
+   "Quantidade": "1 fatia (80g)",
+   "Calorias": "192 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Pão de Alho com Queijo e Azeitonas",
+   "Quantidade": "2 unidades",
+   "Calorias": "353 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Profiteroles",
+   "Quantidade": "100g",
+   "Calorias": "381 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Pizza Lasanha de Carne",
+   "Quantidade": "1 fatia (80g)",
+   "Calorias": "226 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Enrolado Barbecue",
+   "Quantidade": "1 dose (247g)",
+   "Calorias": "538 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Pizza Bacana",
+   "Quantidade": "100g",
+   "Calorias": "270 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Top Burguer Vaca",
+   "Quantidade": "100g",
+   "Calorias": "236 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Pizza Formaggio",
+   "Quantidade": "1 fatia (76g)",
+   "Calorias": "237 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Enrolado Carbonara",
+   "Quantidade": "1 dose (182g)",
+   "Calorias": "490 kcal"
+ },
+ {
+   "restaurante": "telepizza",
+   "Item": "Telekebab",
+   "Quantidade": "100g",
+   "Calorias": "225 kcal"
+ }
+]

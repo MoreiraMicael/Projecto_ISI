@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<refeicoes>
+  <refeicao >
+    <restaurante>h3</restaurante>
+    <item>Hambúrguer bem Passado</item>
+    <quantidade>1 dose (200g)</quantidade>
+    <calorias>304 kcal</calorias>
+  </refeicao>
+  <refeicao >
+    <restaurante>mcdonalds</restaurante>
+    <item>Batatas Fritas (Média)</item>
+    <quantidade>1 dose (100g)</quantidade>
+    <calorias>340 kcal</calorias>
+  </refeicao>
+  <refeicao >
+    <restaurante>h3</restaurante>
+    <item>H3 Benedict</item>
+    <quantidade>1 hambúrguer (100g)</quantidade>
+    <calorias>553 kcal</calorias>
+  </refeicao>
+</refeicoes>

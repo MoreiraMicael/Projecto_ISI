@@ -1,0 +1,7 @@
+C:\Users\Moreira\Documents\SourceTree\Projecto_ISI\WebServiceProjecto_ISI\bin\WebServiceProjecto_ISI.dll.config
+C:\Users\Moreira\Documents\SourceTree\Projecto_ISI\WebServiceProjecto_ISI\bin\WebServiceProjecto_ISI.dll
+C:\Users\Moreira\Documents\SourceTree\Projecto_ISI\WebServiceProjecto_ISI\bin\WebServiceProjecto_ISI.pdb
+C:\Users\Moreira\Documents\SourceTree\Projecto_ISI\WebServiceProjecto_ISI\obj\Debug\WebServiceProjecto_ISI.csprojAssemblyReference.cache
+C:\Users\Moreira\Documents\SourceTree\Projecto_ISI\WebServiceProjecto_ISI\obj\Debug\WebServiceProjecto_ISI.csproj.CoreCompileInputs.cache
+C:\Users\Moreira\Documents\SourceTree\Projecto_ISI\WebServiceProjecto_ISI\obj\Debug\WebServiceProjecto_ISI.dll
+C:\Users\Moreira\Documents\SourceTree\Projecto_ISI\WebServiceProjecto_ISI\obj\Debug\WebServiceProjecto_ISI.pdb

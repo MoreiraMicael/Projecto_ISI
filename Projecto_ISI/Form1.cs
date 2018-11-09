@@ -8,11 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
+using WebServiceProjecto_ISI;
+using System.Xml;
+using System.IO;
 
 namespace Projecto_ISI
 {
     public partial class Form1 : Form
     {
+        private readonly WebServiceProjecto_ISI.Service1 service1 = new Service1();
+
         public Form1()
         {
             InitializeComponent();
@@ -33,7 +38,7 @@ namespace Projecto_ISI
             if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 System.IO.StreamReader sr = new
-                   System.IO.StreamReader(openFileDialog1.FileName);
+                    System.IO.StreamReader(openFileDialog1.FileName);
                 //MessageBox.Show(sr.ReadToEnd());
                 richTextBox1.Text = sr.ReadToEnd();
                 //string texto = richTextBox1.Text;
@@ -56,7 +61,7 @@ namespace Projecto_ISI
 
             int numLinhas = 0;
             int numCampos = 0;
-            foreach (var linha in linhas) 
+            foreach (var linha in linhas)
             {
                 //richTextBox2.Text += "Linha: " + linha + "\n";
                 numLinhas++;
@@ -68,19 +73,23 @@ namespace Projecto_ISI
             }
 
             richTextBox2.Text = "Numero de Linhas: " + numLinhas + "\n" + "Numero de Campos: " + numCampos;
+        }
 
-            /*
-             * private void button2_Click(object sender, EventArgs e)
-            {
-                List<Refeicao> refeicoes = new List<Refeicao>();
+        private void button4_Click(object sender, EventArgs e)
+        {
+            service1.GetRefeicoes();
+        }
 
-                string maisrefeicoes = File.ReadAllText(@"C:\Users\Moreira\Documents\ISI\Projecto_ISI\calorias_restaurantes_3.json");
+        private void button5_Click(object sender, EventArgs e)
+        {
+            /*List<Refeicao> refeicoes = new List<Refeicao>();
 
-                List<Refeicao> mais_refeicoes = JsonConvert.DeserializeObject<List<Refeicao>>(maisrefeicoes);
+            string maisrefeicoes = File.ReadAllText(@"C:\Users\Moreira\Documents\ISI\Projecto_ISI\calorias_restaurantes_3.json");
 
-                var text_ref = String.Join("\n", mais_refeicoes);
-                richTextBox1.Text = text_ref;
-            }*/
+            List<Refeicao> mais_refeicoes = JsonConvert.DeserializeObject<List<Refeicao>>(maisrefeicoes);
+
+            var text_ref = String.Join("\n", mais_refeicoes);
+            richTextBox2.Text = text_ref;*/
         }
     }
 }

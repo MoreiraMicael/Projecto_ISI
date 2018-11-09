@@ -98,5 +98,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebServiceProjecto_ISI\WebServiceProjecto_ISI.csproj">
+      <Project>{57eab7f8-ccba-437a-9cb7-c712f1c2e9da}</Project>
+      <Name>WebServiceProjecto_ISI</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
