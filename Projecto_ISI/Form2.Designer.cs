@@ -90,7 +90,6 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Basal Metabolic Rate (BMR)",
             "Sedentario - Pouco ou Nenhum Exercicio",
             "Light - 1 to 3 vezes pro semana",
             "Moderate - 3 to 5",
@@ -100,6 +99,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 10;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button1
             // 

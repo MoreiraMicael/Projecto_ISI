@@ -22,3 +22,15 @@ C:\Users\Moreira\Documents\ISI\Projecto_ISI\Projecto_ISI\bin\Debug\Projecto_ISI.
 C:\Users\Moreira\Documents\ISI\Projecto_ISI\Projecto_ISI\bin\Debug\Projecto_ISI.pdb
 C:\Users\Moreira\Documents\ISI\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.exe
 C:\Users\Moreira\Documents\ISI\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.pdb
+C:\Users\5160270\Source\Repos\Projecto_ISI\Projecto_ISI\bin\Debug\Projecto_ISI.exe.config
+C:\Users\5160270\Source\Repos\Projecto_ISI\Projecto_ISI\bin\Debug\Projecto_ISI.exe
+C:\Users\5160270\Source\Repos\Projecto_ISI\Projecto_ISI\bin\Debug\Projecto_ISI.pdb
+C:\Users\5160270\Source\Repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.csprojAssemblyReference.cache
+C:\Users\5160270\Source\Repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.Form1.resources
+C:\Users\5160270\Source\Repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.Form2.resources
+C:\Users\5160270\Source\Repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.Form3.resources
+C:\Users\5160270\Source\Repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.Properties.Resources.resources
+C:\Users\5160270\Source\Repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.csproj.GenerateResource.cache
+C:\Users\5160270\Source\Repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.csproj.CoreCompileInputs.cache
+C:\Users\5160270\Source\Repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.exe
+C:\Users\5160270\Source\Repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.pdb

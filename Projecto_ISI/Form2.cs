@@ -66,6 +66,11 @@ namespace Projecto_ISI
             }
         }
 
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)//Falta o Exercicio Fisico
         {
             if (String.IsNullOrEmpty(textBox1.Text))
@@ -83,33 +88,113 @@ namespace Projecto_ISI
             if (String.IsNullOrEmpty(textBox3.Text))
             {
                 MessageBox.Show("Preencha  Campo da peso. ");
-            }
-            /*
+            }            
             if (String.IsNullOrEmpty(textBox1.Text))
             {
                 MessageBox.Show("Preencha  Campo da Actividade. ");
-            }
-            */
+            }         
             else
             {
+                double sedent = 1.2;
+                double light = 1.375;
+                double moderate = 1.55;
+                double very = 1.725;
+                double extra = 1.9;
                 idade = int.Parse(textBox1.Text);
                 altura = double.Parse(textBox2.Text);
                 peso = double.Parse(textBox3.Text);
-
-                switch (comboBox2.SelectedIndex)
+                int caloriasM = ((int)(10 * peso + 6.25 * altura - 5 * idade + 5));
+               
+                int caloriasF = ((int)(10 * peso + 6.25 * altura - 5 * idade - 161));
+                
+                switch (comboBox1.SelectedIndex)
                 {
+                    
                     case 0:
-                        int caloriasM = ((int)(10 * peso + 6.25 * altura - 5 * idade + 5));
-                        int menosMeio = ((int)(10 * peso + 6.25 * altura - 5 * idade + 5) - 500);
-                        int menosUm = ((int)(10 * peso + 6.25 * altura - 5 * idade + 5) - 1000);
-                        int maisMeio = ((int)(10 * peso + 6.25 * altura - 5 * idade + 5) + 500);
-                        int maisUm = ((int)(10 * peso + 6.25 * altura - 5 * idade + 5) + 1000);
-                        MessageBox.Show("Precisa de " + caloriasM.ToString() + " para manter o seu peso.\n" + menosMeio + " Perder peso\n" + maisMeio + " Ganhar Peso\n" );//Melhorar print
-                        break;
+                        
+                        if (comboBox2.SelectedItem.Equals("Feminino"))
+                        {
+
+                         double calorias = caloriasF *  sedent;
+
+                            MessageBox.Show("Precisa de " + (int) calorias + " para manter o seu peso.\n" + (int) (calorias-500) + " Perder peso\n" + (int) (calorias+500) + " Ganhar Peso\n");//Melhorar print
+                            break;
+                        }
+                         double caloriasMasc = ((caloriasM * sedent));
+                         double menosMeio = ((caloriasM * sedent)-500);
+                         double menosUm = ((caloriasM * sedent) - 1000);
+                         double maisMeio = ((caloriasM * sedent) + 500);
+                         double maisUm = ((caloriasM * sedent) + 1000);
+                        MessageBox.Show("Precisa de " + (int)caloriasMasc + " para manter o seu peso.\n" + (int)menosMeio + " Perder peso\n" + (int)maisMeio + " Ganhar Peso\n");//Melhorar print
+                        break; 
+                      
                     case 1:
-                        int caloriasF = ((int)(10 * peso + 6.25 * altura - 5 * idade - 161));
-                        MessageBox.Show(caloriasF.ToString());
+
+                        if (comboBox2.SelectedItem.Equals("Feminino"))
+                        {
+
+                            double calorias = caloriasF * light;
+
+                            MessageBox.Show("Precisa de " + (int)calorias + " para manter o seu peso.\n" + (int)(calorias - 500) + " Perder peso\n" + (int)(calorias + 500) + " Ganhar Peso\n");//Melhorar print
+                            break;
+                        }
+                         caloriasMasc = ((caloriasM * light));
+                         menosMeio = ((caloriasM * light) - 500);
+                         menosUm = ((caloriasM * light) - 1000);
+                         maisMeio = ((caloriasM * light) + 500);
+                         maisUm = ((caloriasM * light) + 1000);
+                        MessageBox.Show("Precisa de " + (int)caloriasMasc + " para manter o seu peso.\n" + (int)menosMeio + " Perder peso\n" + (int)maisMeio + " Ganhar Peso\n");//Melhorar print
                         break;
+                    case 2:
+                        if (comboBox2.SelectedItem.Equals("Feminino"))
+                        {
+
+                            double calorias = caloriasF * moderate;
+
+                            MessageBox.Show("Precisa de " + (int)calorias + " para manter o seu peso.\n" + (int)(calorias - 500) + " Perder peso\n" + (int)(calorias + 500) + " Ganhar Peso\n");//Melhorar print
+                            break;
+                        }
+                        caloriasMasc = ((caloriasM * moderate));
+                        menosMeio = ((caloriasM * moderate) - 500);
+                        menosUm = ((caloriasM * moderate) - 1000);
+                        maisMeio = ((caloriasM * moderate) + 500);
+                        maisUm = ((caloriasM * moderate) + 1000);
+                        MessageBox.Show("Precisa de " + (int)caloriasMasc + " para manter o seu peso.\n" + (int)menosMeio + " Perder peso\n" + (int)maisMeio + " Ganhar Peso\n");//Melhorar print
+                        break;
+                    case 3:
+                        if (comboBox2.SelectedItem.Equals("Feminino"))
+                        {
+
+                            double calorias = caloriasF * very;
+
+                            MessageBox.Show("Precisa de " + (int)calorias + " para manter o seu peso.\n" + (int)(calorias - 500) + " Perder peso\n" + (int)(calorias + 500) + " Ganhar Peso\n");//Melhorar print
+                            break;
+                        }
+                        caloriasMasc = ((caloriasM * very));
+                        menosMeio = ((caloriasM * very) - 500);
+                        menosUm = ((caloriasM * very) - 1000);
+                        maisMeio = ((caloriasM * very) + 500);
+                        maisUm = ((caloriasM * very) + 1000);
+                        MessageBox.Show("Precisa de " + (int)caloriasMasc + " para manter o seu peso.\n" + (int)menosMeio + " Perder peso\n" + (int)maisMeio + " Ganhar Peso\n");//Melhorar print
+                        break;
+                    case 4:
+                        if (comboBox2.SelectedItem.Equals("Feminino"))
+                        {
+
+                            double calorias = caloriasF * extra;
+
+                            MessageBox.Show("Precisa de " + (int)calorias + " para manter o seu peso.\n" + (int)(calorias - 500) + " Perder peso\n" + (int)(calorias + 500) + " Ganhar Peso\n");//Melhorar print
+                            break;
+                        }
+                        caloriasMasc = ((caloriasM * extra));
+                        menosMeio = ((caloriasM * extra) - 500);
+                        menosUm = ((caloriasM * extra) - 1000);
+                        maisMeio = ((caloriasM * extra) + 500);
+                        maisUm = ((caloriasM * extra) + 1000);
+                        MessageBox.Show("Precisa de " + (int)caloriasMasc + " para manter o seu peso.\n" + (int)menosMeio + " Perder peso\n" + (int)maisMeio + " Ganhar Peso\n");//Melhorar print
+                        break;
+
+
                 }
             }
                      
