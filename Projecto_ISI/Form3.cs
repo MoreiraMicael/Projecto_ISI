@@ -39,7 +39,7 @@ namespace Projecto_ISI
             {
                 idade = int.Parse(textBox1.Text);
                 altura = double.Parse(textBox2.Text);
-                alturaInches = altura * 0.39;
+                alturaInches = altura * 0.393700787;
                 alturaExtra = alturaInches - 60;
                 
                 //peso = double.Parse(textBox3.Text);
@@ -48,12 +48,12 @@ namespace Projecto_ISI
                 {
                     case 0:
                         pesoExtra = alturaExtra * 1.9;
-                        int pesoIdealM = ((int)(52 + pesoExtra));
+                        float pesoIdealM = ((float)(52 + pesoExtra));
                         MessageBox.Show("Peso ideal " + pesoIdealM.ToString() + "KG" + "\n alturaInches" + alturaInches + " \n alturaExtra " + alturaExtra + " \n pesoExtra " + pesoExtra);//Melhorar print
                         break;
                     case 1:
                         pesoExtra = alturaExtra * 1.7;
-                        int pesoIdealF = ((int)(49 + pesoExtra));
+                        float pesoIdealF = ((float)(49 + pesoExtra));
                         MessageBox.Show("Peso ideal " + pesoIdealF.ToString() + "KG" + "\n alturaInches" + alturaInches + " \n alturaExtra " + alturaExtra + " \n pesoExtra " + pesoExtra);//Melhorar print
                         break;
                 }
