@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
@@ -13,6 +14,8 @@ namespace WebServiceProjecto_ISI
     public interface IService1
     {
         [OperationContract]
+        [WebInvoke(Method = "GET", UriTemplate = "/Refeicoes/Refeicao")]
+        [Description("Gets all the Refeicoes.")]
         List<Refeicao> GetRefeicoes();
     }
 

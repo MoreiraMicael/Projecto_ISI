@@ -11,7 +11,7 @@ namespace WebServiceProjecto_ISI
 
         public Service1()
         {
-            FILEPATH = Path.Combine(HostingEnvironment.ApplicationPhysicalPath, "App_Data", "refeicoes1.xml");
+            FILEPATH = Path.Combine(HostingEnvironment.ApplicationPhysicalPath, "App_Data", "calorias_restaurante_1.txt");
         }
 
         public List<Refeicao> GetRefeicoes()
