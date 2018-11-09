@@ -18,8 +18,8 @@ namespace WebServiceProjecto_ISI
         private static string FILEPATH;
         public Service1()
         {
-            FILEPATH = Path.Combine(HostingEnvironment.ApplicationPhysicalPath, "App_Data",
-            "refeicoes.xml");
+            //FILEPATH = Path.Combine(HostingEnvironment.ApplicationPhysicalPath, "App_Data",
+            //"refeicoes.xml");
         }
         public List<Refeicao> GetRefeicoes()
         {
