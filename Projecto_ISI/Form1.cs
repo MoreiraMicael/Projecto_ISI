@@ -11,6 +11,7 @@ using System.Text.RegularExpressions;
 using WebServiceProjecto_ISI;
 using System.Xml;
 using System.IO;
+using System.Xml.Linq;
 
 namespace Projecto_ISI
 {
@@ -75,9 +76,14 @@ namespace Projecto_ISI
             richTextBox2.Text = "Numero de Linhas: " + numLinhas + "\n" + "Numero de Campos: " + numCampos;
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)//Print do refeicoes1.xml por refeicao
         {
-            service1.GetRefeicoes();
+            //service1.GetRefeicoes();
+            foreach(var Refeicao in service1.GetRefeicoes())
+            {
+                richTextBox1.Text += Refeicao.ToString() + "\n";
+            }
+            
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -90,6 +96,41 @@ namespace Projecto_ISI
 
             var text_ref = String.Join("\n", mais_refeicoes);
             richTextBox2.Text = text_ref;*/
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            var txt = string.Empty;
+
+            using (var stream = File.OpenText("App_Data\\calorias_restaurantes_1.txt"))
+            {
+                txt = stream.ReadToEnd();
+            }
+
+            string texto = richTextBox1.Text;
+            string[] linhas = texto.Split(new[] { "\n" }, StringSplitOptions.RemoveEmptyEntries);
+            string[] campos = texto.Split(new[] { "\t" }, StringSplitOptions.RemoveEmptyEntries);
+            //string[] digits = Regex.Split(texto, @"\§");
+
+            int numLinhas = 0;
+            int numCampos = 0;
+
+            foreach (var linha in linhas)
+            {
+                //richTextBox2.Text += "Linha: " + linha + "\n";
+                numLinhas++;
+
+                foreach (var campo in campos)
+                {
+                    numCampos++;
+                }
+            }
+            String[] data = File.ReadAllLines("App_Data\\calorias_restaurantes_1.txt");
+            XElement root = new XElement("Refeicoes",
+                                        from item in data
+                                        select new XElement("Refeicao", item));
+
+            root.Save(Path.ChangeExtension("App_Data\\calorias_restaurantes_1XML", ".xml"));
         }
     }
 }

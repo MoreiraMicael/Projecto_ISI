@@ -38,3 +38,5 @@ C:\Users\Moreira\Documents\SourceTree\Projecto_ISI\Projecto_ISI\obj\Debug\Projec
 C:\Users\Moreira\Documents\SourceTree\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.csproj.CopyComplete
 C:\Users\Moreira\Documents\SourceTree\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.exe
 C:\Users\Moreira\Documents\SourceTree\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.pdb
+C:\Users\Moreira\Documents\SourceTree\Projecto_ISI\Projecto_ISI\bin\Debug\App_Data\refeicoes1.xml
+C:\Users\Moreira\Documents\SourceTree\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.Refeicoes.resources

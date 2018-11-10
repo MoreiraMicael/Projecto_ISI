@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Web.Hosting;
 using System.Xml;
@@ -11,7 +12,9 @@ namespace WebServiceProjecto_ISI
 
         public Service1()
         {
-            FILEPATH = Path.Combine(HostingEnvironment.ApplicationPhysicalPath, "App_Data", "calorias_restaurante_1.txt");
+            //FILEPATH = Path.Combine(HostingEnvironment.ApplicationPhysicalPath, "App_Data", "refeicao1.xml");
+            FILEPATH = "App_Data\\refeicoes1.xml";
+            //FILEPATH = "App_Data\\calorias_restaurantes_3.json";
         }
 
         public List<Refeicao> GetRefeicoes()
@@ -20,6 +23,7 @@ namespace WebServiceProjecto_ISI
             xmlDoc.Load(FILEPATH);
             List<Refeicao> Refeicoes = new List<Refeicao>();
             XmlNodeList RefeicaoNodes = xmlDoc.SelectNodes("/Refeicoes/Refeicao");
+
             foreach (XmlNode RefeicaoNode in RefeicaoNodes)
             {
                 XmlNode RestauranteNode = RefeicaoNode.SelectSingleNode("Restaurante");
@@ -27,8 +31,11 @@ namespace WebServiceProjecto_ISI
                 XmlNode QuantidadeNode = RefeicaoNode.SelectSingleNode("Quantidade");
                 XmlNode CaloriasNode = RefeicaoNode.SelectSingleNode("Calorias");
 
-                Refeicao book = new Refeicao(RestauranteNode.InnerText, ItemNode.InnerText, QuantidadeNode.InnerText, CaloriasNode.InnerText);
-                Refeicoes.Add(book);
+                Refeicao Refeicao = new Refeicao(RestauranteNode.InnerText, ItemNode.InnerText, QuantidadeNode.InnerText, CaloriasNode.InnerText);
+
+                Refeicoes.Add(Refeicao);
+
+                //Console.WriteLine(Refeicao);
             }
             return Refeicoes;
         }

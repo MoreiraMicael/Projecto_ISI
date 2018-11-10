@@ -1,0 +1,41 @@
+restaurante	Item	Quantidade	Calorias	
+h3	Hambúrguer bem Passado	1 dose (200g)	304 kcal	
+h3	Limonada sem Açúcar	1 dose	10 kcal	
+h3	H3 Arroz	1/2 dose	195 kcal	
+h3	Batatas Fritas (1/2 dose)	1/2 dose	274 kcal	
+h3	H3 Esparregado	1 dose	116 kcal	
+h3	Hambúrguer Médio	1 dose (200g)	354 kcal	
+h3	Batatas Fritas	1 dose (75g)	411 kcal	
+h3	H3 Arroz (1/2 dose)	1 dose	390 kcal	
+h3	Limonada de Morango sem Açúcar	1 dose	14 kcal	
+h3	H3 Grelado	1 hambúrguer (200g)	304 kcal	
+h3	H3 Mediterrãneo	1 hambúrguer (180g)	441 kcal	
+h3	H3 Cheese	1 hambúrguer (180g)	464 kcal	
+h3	H3 Champignon	1 hambúrguer (200g)	421 kcal	
+h3	Tuga	1 hambúrguer (180g)	424 kcal	
+h3	H3 Benedict	1 hambúrguer (100g)	553 kcal	
+h3	H3 Tuga	1 dose (180g)	424 kcal	
+h3	H3 Legumes	1 hambúrguer	460 kcal	
+h3	Super Bread	1 hambúrguer (380g)	836 kcal	
+h3	H3 Carbonara	1 dose	546 kcal	
+h3	Vinagreta Dijon	1 dose	83 kcal	
+mcdonalds	Batatas Fritas (Média)	1 dose (100g)	340 kcal	
+mcdonalds	Big Mac	1 dose	510 kcal	
+mcdonalds	Batatas Fritas (Pequena)	1 dose	240 kcal	
+mcdonalds	Double Cheeseburguer	1 dose	448 kcal	
+mcdonalds	Cheeseburger	1 dose (120g)	305 kcal	
+mcdonalds	Chicken McNuggets (4)	1 dose	179 kcal	
+mcdonalds	Batatas Fritas (Grande)	1 dose	448 kcal	
+mcdonalds	McFlurry Snickers	1 dose (187g)	375 kcal	
+mcdonalds	Big Tasty	1 dose (345g)	842 kcal	
+mcdonalds	CBO	1 dose (247g)	665 kcal	
+mcdonalds	Coca-Cola (Média)	1 dose (400ml)	176 kcal	
+mcdonalds	Sopa de Grão com Espinafres	1 dose (150ml)	75 kcal	
+mcdonalds	Sundae de Caramelo	1 dose (184g)	325 kcal	
+mcdonalds	Ketchup para Batatas	1 dose (12g)	12 kcal	
+mcdonalds	Wrap Ranch	1 dose (119g)	315 kcal	
+mcdonalds	McChicken	1 dose (184g)	410 kcal	
+mcdonalds	McFlurry Oreo	1 dose (218g)	345 kcal	
+mcdonalds	Molho para Batatas	1 dose (25ml)	46 kcal	
+mcdonalds	Coca-Cola Zero (Pequena)	1 dose (250ml)	1 kcal	
+mcdonalds	Croissant Fiambre	1 dose	178 kcal	

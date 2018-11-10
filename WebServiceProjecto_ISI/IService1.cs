@@ -14,7 +14,7 @@ namespace WebServiceProjecto_ISI
     public interface IService1
     {
         [OperationContract]
-        [WebInvoke(Method = "GET", UriTemplate = "/Refeicoes/Refeicao")]
+        [WebInvoke(Method = "GET", UriTemplate = "/Refeicoes")]
         [Description("Gets all the Refeicoes.")]
         List<Refeicao> GetRefeicoes();
     }
@@ -42,12 +42,12 @@ namespace WebServiceProjecto_ISI
 
         public override string ToString()
         {
-            string res = string.Empty;
-            res += "Restaurante: " + Restaurante + Environment.NewLine;
-            res += "Item: " + Item + Environment.NewLine;
-            res += "Quantidade: " + Quantidade + Environment.NewLine;
-            res += "Calorias: " + Calorias + Environment.NewLine;
-            return res;
+            string Refeicao = string.Empty;
+            Refeicao += "Restaurante: " + Restaurante + Environment.NewLine;
+            Refeicao += "Item: " + Item + Environment.NewLine;
+            Refeicao += "Quantidade: " + Quantidade + Environment.NewLine;
+            Refeicao += "Calorias: " + Calorias + Environment.NewLine;
+            return Refeicao;
         }
     }
 

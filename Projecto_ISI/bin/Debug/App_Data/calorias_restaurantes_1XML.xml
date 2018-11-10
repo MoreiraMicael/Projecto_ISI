@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Refeicoes>
+  <Refeicao>restaurante	Item	Quantidade	Calorias	</Refeicao>
+  <Refeicao>h3	Hamb�rguer bem Passado	1 dose (200g)	304 kcal	</Refeicao>
+  <Refeicao>h3	Limonada sem A��car	1 dose	10 kcal	</Refeicao>
+  <Refeicao>h3	H3 Arroz	1/2 dose	195 kcal	</Refeicao>
+  <Refeicao>h3	Batatas Fritas (1/2 dose)	1/2 dose	274 kcal	</Refeicao>
+  <Refeicao>h3	H3 Esparregado	1 dose	116 kcal	</Refeicao>
+  <Refeicao>h3	Hamb�rguer M�dio	1 dose (200g)	354 kcal	</Refeicao>
+  <Refeicao>h3	Batatas Fritas	1 dose (75g)	411 kcal	</Refeicao>
+  <Refeicao>h3	H3 Arroz (1/2 dose)	1 dose	390 kcal	</Refeicao>
+  <Refeicao>h3	Limonada de Morango sem A��car	1 dose	14 kcal	</Refeicao>
+  <Refeicao>h3	H3 Grelado	1 hamb�rguer (200g)	304 kcal	</Refeicao>
+  <Refeicao>h3	H3 Mediterr�neo	1 hamb�rguer (180g)	441 kcal	</Refeicao>
+  <Refeicao>h3	H3 Cheese	1 hamb�rguer (180g)	464 kcal	</Refeicao>
+  <Refeicao>h3	H3 Champignon	1 hamb�rguer (200g)	421 kcal	</Refeicao>
+  <Refeicao>h3	Tuga	1 hamb�rguer (180g)	424 kcal	</Refeicao>
+  <Refeicao>h3	H3 Benedict	1 hamb�rguer (100g)	553 kcal	</Refeicao>
+  <Refeicao>h3	H3 Tuga	1 dose (180g)	424 kcal	</Refeicao>
+  <Refeicao>h3	H3 Legumes	1 hamb�rguer	460 kcal	</Refeicao>
+  <Refeicao>h3	Super Bread	1 hamb�rguer (380g)	836 kcal	</Refeicao>
+  <Refeicao>h3	H3 Carbonara	1 dose	546 kcal	</Refeicao>
+  <Refeicao>h3	Vinagreta Dijon	1 dose	83 kcal	</Refeicao>
+  <Refeicao>mcdonalds	Batatas Fritas (M�dia)	1 dose (100g)	340 kcal	</Refeicao>
+  <Refeicao>mcdonalds	Big Mac	1 dose	510 kcal	</Refeicao>
+  <Refeicao>mcdonalds	Batatas Fritas (Pequena)	1 dose	240 kcal	</Refeicao>
+  <Refeicao>mcdonalds	Double Cheeseburguer	1 dose	448 kcal	</Refeicao>
+  <Refeicao>mcdonalds	Cheeseburger	1 dose (120g)	305 kcal	</Refeicao>
+  <Refeicao>mcdonalds	Chicken McNuggets (4)	1 dose	179 kcal	</Refeicao>
+  <Refeicao>mcdonalds	Batatas Fritas (Grande)	1 dose	448 kcal	</Refeicao>
+  <Refeicao>mcdonalds	McFlurry Snickers	1 dose (187g)	375 kcal	</Refeicao>
+  <Refeicao>mcdonalds	Big Tasty	1 dose (345g)	842 kcal	</Refeicao>
+  <Refeicao>mcdonalds	CBO	1 dose (247g)	665 kcal	</Refeicao>
+  <Refeicao>mcdonalds	Coca-Cola (M�dia)	1 dose (400ml)	176 kcal	</Refeicao>
+  <Refeicao>mcdonalds	Sopa de Gr�o com Espinafres	1 dose (150ml)	75 kcal	</Refeicao>
+  <Refeicao>mcdonalds	Sundae de Caramelo	1 dose (184g)	325 kcal	</Refeicao>
+  <Refeicao>mcdonalds	Ketchup para Batatas	1 dose (12g)	12 kcal	</Refeicao>
+  <Refeicao>mcdonalds	Wrap Ranch	1 dose (119g)	315 kcal	</Refeicao>
+  <Refeicao>mcdonalds	McChicken	1 dose (184g)	410 kcal	</Refeicao>
+  <Refeicao>mcdonalds	McFlurry Oreo	1 dose (218g)	345 kcal	</Refeicao>
+  <Refeicao>mcdonalds	Molho para Batatas	1 dose (25ml)	46 kcal	</Refeicao>
+  <Refeicao>mcdonalds	Coca-Cola Zero (Pequena)	1 dose (250ml)	1 kcal	</Refeicao>
+  <Refeicao>mcdonalds	Croissant Fiambre	1 dose	178 kcal	</Refeicao>
+</Refeicoes>
