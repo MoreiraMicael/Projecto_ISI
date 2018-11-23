@@ -71,6 +71,46 @@ namespace Projecto_ISI
 
         }
 
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void button1_Click(object sender, EventArgs e)//Falta o Exercicio Fisico
         {
             if (String.IsNullOrEmpty(textBox1.Text))
@@ -116,8 +156,10 @@ namespace Projecto_ISI
                         {
 
                          double calorias = caloriasF *  sedent;
-
-                            MessageBox.Show("Precisa de " + (int) calorias + " para manter o seu peso.\n" + (int) (calorias-500) + " Perder peso\n" + (int) (calorias+500) + " Ganhar Peso\n");//Melhorar print
+                            textBox4.Text = calorias.ToString();
+                            textBox5.Text = (calorias - 500).ToString();
+                            textBox6.Text = (calorias + 500).ToString();
+                           // MessageBox.Show("Precisa de " + (int) calorias + " para manter o seu peso.\n" + (int) (calorias-500) + " Perder peso\n" + (int) (calorias+500) + " Ganhar Peso\n");//Melhorar print
                             break;
                         }
                          double caloriasMasc = ((caloriasM * sedent));
@@ -125,7 +167,10 @@ namespace Projecto_ISI
                          double menosUm = ((caloriasM * sedent) - 1000);
                          double maisMeio = ((caloriasM * sedent) + 500);
                          double maisUm = ((caloriasM * sedent) + 1000);
-                        MessageBox.Show("Precisa de " + (int)caloriasMasc + " para manter o seu peso.\n" + (int)menosMeio + " Perder peso\n" + (int)maisMeio + " Ganhar Peso\n");//Melhorar print
+                        textBox4.Text = caloriasMasc.ToString();
+                        textBox5.Text = menosMeio.ToString();
+                        textBox6.Text = maisMeio.ToString();
+                      //  MessageBox.Show("Precisa de " + (int)caloriasMasc + " para manter o seu peso.\n" + (int)menosMeio + " Perder peso\n" + (int)maisMeio + " Ganhar Peso\n");//Melhorar print
                         break; 
                       
                     case 1:
@@ -143,7 +188,10 @@ namespace Projecto_ISI
                          menosUm = ((caloriasM * light) - 1000);
                          maisMeio = ((caloriasM * light) + 500);
                          maisUm = ((caloriasM * light) + 1000);
-                        MessageBox.Show("Precisa de " + (int)caloriasMasc + " para manter o seu peso.\n" + (int)menosMeio + " Perder peso\n" + (int)maisMeio + " Ganhar Peso\n");//Melhorar print
+                        textBox4.Text = caloriasMasc.ToString();
+                        textBox5.Text = menosMeio.ToString();
+                        textBox6.Text = maisMeio.ToString();
+                       // MessageBox.Show("Precisa de " + (int)caloriasMasc + " para manter o seu peso.\n" + (int)menosMeio + " Perder peso\n" + (int)maisMeio + " Ganhar Peso\n");//Melhorar print
                         break;
                     case 2:
                         if (comboBox2.SelectedItem.Equals("Feminino"))
@@ -159,7 +207,10 @@ namespace Projecto_ISI
                         menosUm = ((caloriasM * moderate) - 1000);
                         maisMeio = ((caloriasM * moderate) + 500);
                         maisUm = ((caloriasM * moderate) + 1000);
-                        MessageBox.Show("Precisa de " + (int)caloriasMasc + " para manter o seu peso.\n" + (int)menosMeio + " Perder peso\n" + (int)maisMeio + " Ganhar Peso\n");//Melhorar print
+                        textBox4.Text = caloriasMasc.ToString();
+                        textBox5.Text = menosMeio.ToString();
+                        textBox6.Text = maisMeio.ToString();
+                        //  MessageBox.Show("Precisa de " + (int)caloriasMasc + " para manter o seu peso.\n" + (int)menosMeio + " Perder peso\n" + (int)maisMeio + " Ganhar Peso\n");//Melhorar print
                         break;
                     case 3:
                         if (comboBox2.SelectedItem.Equals("Feminino"))
@@ -175,7 +226,10 @@ namespace Projecto_ISI
                         menosUm = ((caloriasM * very) - 1000);
                         maisMeio = ((caloriasM * very) + 500);
                         maisUm = ((caloriasM * very) + 1000);
-                        MessageBox.Show("Precisa de " + (int)caloriasMasc + " para manter o seu peso.\n" + (int)menosMeio + " Perder peso\n" + (int)maisMeio + " Ganhar Peso\n");//Melhorar print
+                        textBox4.Text = caloriasMasc.ToString();
+                        textBox5.Text = menosMeio.ToString();
+                        textBox6.Text = maisMeio.ToString();
+                    //    MessageBox.Show("Precisa de " + (int)caloriasMasc + " para manter o seu peso.\n" + (int)menosMeio + " Perder peso\n" + (int)maisMeio + " Ganhar Peso\n");//Melhorar print
                         break;
                     case 4:
                         if (comboBox2.SelectedItem.Equals("Feminino"))
@@ -191,7 +245,10 @@ namespace Projecto_ISI
                         menosUm = ((caloriasM * extra) - 1000);
                         maisMeio = ((caloriasM * extra) + 500);
                         maisUm = ((caloriasM * extra) + 1000);
-                        MessageBox.Show("Precisa de " + (int)caloriasMasc + " para manter o seu peso.\n" + (int)menosMeio + " Perder peso\n" + (int)maisMeio + " Ganhar Peso\n");//Melhorar print
+                        textBox4.Text = caloriasMasc.ToString();
+                        textBox5.Text = menosMeio.ToString();
+                        textBox6.Text = maisMeio.ToString();
+                      //  MessageBox.Show("Precisa de " + (int)caloriasMasc + " para manter o seu peso.\n" + (int)menosMeio + " Perder peso\n" + (int)maisMeio + " Ganhar Peso\n");//Melhorar print
                         break;
 
 

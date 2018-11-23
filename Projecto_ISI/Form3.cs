@@ -20,6 +20,17 @@ namespace Projecto_ISI
             InitializeComponent();
         }
 
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+       private void button2_Click(object sender, EventArgs e)
+            {
+                this.Close();
+            }
+      
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (String.IsNullOrEmpty(textBox1.Text))
@@ -48,14 +59,17 @@ namespace Projecto_ISI
                     case 0:
                         pesoExtra = alturaExtra * 1.9;
                         float pesoIdealM = ((float)(52 + pesoExtra));
-                        MessageBox.Show("Peso ideal " + (double) pesoIdealM + "KG" + "\n alturaInches" + alturaInches + " \n alturaExtra " + alturaExtra + " \n pesoExtra " + pesoExtra);//Melhorar print
+                        int peso = (int) pesoIdealM;
+                        richTextBox1.Text = peso.ToString() + " Kgs";                      
                         break;
                     case 1:
                         pesoExtra = alturaExtra * 1.7;
                         float pesoIdealF = ((float)(49 + pesoExtra));
-                        MessageBox.Show("Peso ideal " + (double) pesoIdealF + "KG" + "\n alturaInches" + alturaInches + " \n alturaExtra " + alturaExtra + " \n pesoExtra " + pesoExtra);//Melhorar print
+                        int pesoF = (int)pesoIdealF;
+                        richTextBox1.Text = pesoF.ToString() + " Kgs";
                         break;
                 }
+
 
                
             }
