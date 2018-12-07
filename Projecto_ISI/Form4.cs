@@ -24,7 +24,7 @@ namespace Projecto_ISI
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                StreamReader sr = new StreamReader(openFileDialog1.FileName);
+                StreamReader sr = new StreamReader(openFileDialog1.FileName, Encoding.Default);
                 //MessageBox.Show(sr.ReadToEnd());
                 richTextBox1.Text = sr.ReadToEnd();
                 //string texto = richTextBox1.Text;
@@ -44,7 +44,7 @@ namespace Projecto_ISI
         }
         private void segmenta_2()
         {
-            string texto = richTextBox1.Text;
+            string texto = File.ReadAllText(openFileDialog1.FileName, Encoding.Default); 
             string[] linhas = texto.Split(new[] { "�" }, StringSplitOptions.RemoveEmptyEntries);
             string[] campos = texto.Split(new[] { "|" }, StringSplitOptions.RemoveEmptyEntries);
             //string[] digits = Regex.Split(texto, @"\§");
@@ -85,6 +85,11 @@ namespace Projecto_ISI
         private void button3_Click(object sender, EventArgs e)
         {
         this.Close();            
+        }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
