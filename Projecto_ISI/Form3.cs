@@ -29,23 +29,29 @@ namespace Projecto_ISI
             {
                 this.Close();
             }
-      
+
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(textBox1.Text))
-            {
-                MessageBox.Show("Preencha  Campo da Idade. ");
-            }
-            if (String.IsNullOrEmpty(comboBox1.Text))
-            {
-                MessageBox.Show("Preencha  Campo da Genero. ");
-            }
-            if (String.IsNullOrEmpty(textBox2.Text))
-            {
-                MessageBox.Show("Preencha  Campo da altura. ");
-            }
+            
+                if (String.IsNullOrEmpty(textBox1.Text))
+                {
+                    MessageBox.Show("Preencha o campo da Idade. ");
+                    
+                }
 
+                if (String.IsNullOrEmpty(comboBox1.Text))
+                {
+                    MessageBox.Show("Preencha o campo do Género. ");
+                    
+                }
+                if (String.IsNullOrEmpty(textBox2.Text))
+                {
+                    MessageBox.Show("Preencha o campo da Altura. ");
+                    
+                }
+            
+            
             else
             {
                 idade = int.Parse(textBox1.Text);
