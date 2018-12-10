@@ -38,3 +38,4 @@ C:\Users\5160270\source\repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.F
 C:\Users\5160270\source\repos\Projecto_ISI\Projecto_ISI\bin\Debug\Newtonsoft.Json.dll
 C:\Users\5160270\source\repos\Projecto_ISI\Projecto_ISI\bin\Debug\Newtonsoft.Json.xml
 C:\Users\5160270\source\repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.csproj.CopyComplete
+C:\Users\5160270\Source\Repos\Projecto_ISI\Projecto_ISI\obj\Debug\Projecto_ISI.Form5.resources

@@ -67,7 +67,7 @@ namespace Projecto_ISI
 
         private void button2_Click(object sender, EventArgs e)
         {
-            openFileDialog2.Filter = "Json files (*.json)|*.json|Text files (*.txt)|*.txt";
+            openFileDialog2.Filter = "Ficheiros JSON (*.json)|*.json|Ficheiros Texto (*.txt)|*.txt";
 
 
             if (openFileDialog2.ShowDialog() == DialogResult.OK)

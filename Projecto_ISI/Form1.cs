@@ -56,5 +56,15 @@ namespace Projecto_ISI
         {
             this.button1.Click += new System.EventHandler(this.button1_Click);
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            var frm = new Form5();
+            frm.Location = this.Location;
+            frm.StartPosition = FormStartPosition.Manual;
+            frm.FormClosing += delegate { this.Show(); };
+            frm.Show();
+            this.Hide();
+        }
     }
 }
