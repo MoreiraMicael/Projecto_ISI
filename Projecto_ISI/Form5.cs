@@ -22,27 +22,69 @@ namespace Projecto_ISI
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                StreamReader sr = new StreamReader(openFileDialog1.FileName, Encoding.Default);
+             /*   StreamReader sr = new StreamReader(openFileDialog1.FileName, Encoding.Default);
+                string[] colunas = sr.ReadLine().Split('\n');
+              //  string[] campo = colunas[1].Split('\t');
                 
-                string coiso = sr.ReadToEnd();
-                string[] texto = coiso.Split('\n');
+                DataTable dt = new DataTable();
+                foreach (string c in colunas)
+                {
+                    dt.Columns.Add(c);
+                }
+                string newline;
+                while ((newline = sr.ReadLine()) != null)
+                {
+                    DataRow dr = dt.NewRow();
+                    string[] values = newline.Split(' ');
+                    for (int i = 0; i < values.Length; i++)
+                    {
+                        dr[i] = values[i];
+                    }
+                    dt.Rows.Add(dr);
+                }
+                */
+
                 
-                foreach(DataGridViewRow row in dataGridView1.Rows)
+                
+
+               /* foreach (DataGridViewRow row in dataGridView1.Rows)
                 {
                     int n = dataGridView1.Rows.Add();
 
-                //    foreach()
+                    //    foreach()
                 }
 
 
+               System.IO.StreamReader file = new System.IO.StreamReader("yourfile.txt");
+                string[] columnnames = file.ReadLine().Split(' ');
+                DataTable dt = new DataTable();
+                foreach (string c in columnnames)
+                {
+                    dt.Columns.Add(c);
+                }
+                string newline;
+                while ((newline = file.ReadLine()) != null)
+                {
+                    DataRow dr = dt.NewRow();
+                    string[] values = newline.Split(' ');
+                    for (int i = 0; i < values.Length; i++)
+                    {
+                        dr[i] = values[i];
+                    }
+                    dt.Rows.Add(dr);
+                }
+                file.Close();
+                dataGridView1.DataSource = dt;*/
 
+/*
                 sr.Close();
-            
-                
+                dataGridView1.DataSource = dt;
+                */
             }
 
-        }
 
+
+        }
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 

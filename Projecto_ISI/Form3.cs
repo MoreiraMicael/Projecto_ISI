@@ -7,12 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projecto_ISI.ServiceReference1;
 
 namespace Projecto_ISI
 {
+    //falta aqui uma linha new client qualquer coisa para chamar o metodo do webservice
+
     public partial class Form3 : Form
     {
         int idade;
+        String genero;
         double altura, pesoExtra, alturaExtra, alturaInches;
 
         public Form3()
@@ -33,33 +37,29 @@ namespace Projecto_ISI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
                 if (String.IsNullOrEmpty(textBox1.Text))
                 {
                     MessageBox.Show("Preencha o campo da Idade. ");
-                    
                 }
-
                 if (String.IsNullOrEmpty(comboBox1.Text))
                 {
                     MessageBox.Show("Preencha o campo do Género. ");
-                    
                 }
                 if (String.IsNullOrEmpty(textBox2.Text))
                 {
                     MessageBox.Show("Preencha o campo da Altura. ");
-                    
                 }
-            
             
             else
             {
                 idade = int.Parse(textBox1.Text);
+                genero = comboBox1.Text;
                 altura = double.Parse(textBox2.Text);
-                alturaInches = altura * 0.39370079;
+               // richTextBox1.Text = client.CalculadoraPesoIdeal(genero, altura);
+                
+                /*alturaInches = altura * 0.39370079;
                 alturaExtra = alturaInches - 60;
                 
-
                 switch (comboBox1.SelectedIndex)
                 {
                     case 0:
@@ -74,10 +74,7 @@ namespace Projecto_ISI
                         int pesoF = (int)pesoIdealF;
                         richTextBox1.Text = pesoF.ToString() + " Kgs";
                         break;
-                }
-
-
-               
+                }*/
             }
 
         }
