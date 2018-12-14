@@ -28,29 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.Restautante = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Item = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Quantidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Calorias = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.refeicaoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.caloriasBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.caloriasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.itemDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.quantidadeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.restauranteDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.refeicaoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caloriasBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Restautante,
-            this.Item,
-            this.Quantidade,
-            this.Calorias});
+            this.caloriasDataGridViewTextBoxColumn,
+            this.itemDataGridViewTextBoxColumn,
+            this.quantidadeDataGridViewTextBoxColumn,
+            this.restauranteDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.refeicaoBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(68, 91);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(558, 323);
+            this.dataGridView1.Size = new System.Drawing.Size(443, 323);
             this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // button1
             // 
@@ -67,36 +74,59 @@
             this.openFileDialog1.FileName = "openFileDialog1";
             this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
-            // Restautante
+            // refeicaoBindingSource
             // 
-            this.Restautante.HeaderText = "Restaurante";
-            this.Restautante.Name = "Restautante";
+            this.refeicaoBindingSource.DataSource = typeof(Projecto_ISI.ServiceReference1.Refeicao);
             // 
-            // Item
+            // richTextBox1
             // 
-            this.Item.HeaderText = "Item";
-            this.Item.Name = "Item";
+            this.richTextBox1.Location = new System.Drawing.Point(518, 91);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(270, 323);
+            this.richTextBox1.TabIndex = 2;
+            this.richTextBox1.Text = "";
             // 
-            // Quantidade
+            // caloriasBindingSource
             // 
-            this.Quantidade.HeaderText = "Quantidade";
-            this.Quantidade.Name = "Quantidade";
+            this.caloriasBindingSource.DataSource = typeof(Projecto_ISI.ServiceReference1.Calorias);
             // 
-            // Calorias
+            // caloriasDataGridViewTextBoxColumn
             // 
-            this.Calorias.HeaderText = "Calorias";
-            this.Calorias.Name = "Calorias";
+            this.caloriasDataGridViewTextBoxColumn.DataPropertyName = "Calorias";
+            this.caloriasDataGridViewTextBoxColumn.HeaderText = "Calorias";
+            this.caloriasDataGridViewTextBoxColumn.Name = "caloriasDataGridViewTextBoxColumn";
+            // 
+            // itemDataGridViewTextBoxColumn
+            // 
+            this.itemDataGridViewTextBoxColumn.DataPropertyName = "Item";
+            this.itemDataGridViewTextBoxColumn.HeaderText = "Item";
+            this.itemDataGridViewTextBoxColumn.Name = "itemDataGridViewTextBoxColumn";
+            // 
+            // quantidadeDataGridViewTextBoxColumn
+            // 
+            this.quantidadeDataGridViewTextBoxColumn.DataPropertyName = "Quantidade";
+            this.quantidadeDataGridViewTextBoxColumn.HeaderText = "Quantidade";
+            this.quantidadeDataGridViewTextBoxColumn.Name = "quantidadeDataGridViewTextBoxColumn";
+            // 
+            // restauranteDataGridViewTextBoxColumn
+            // 
+            this.restauranteDataGridViewTextBoxColumn.DataPropertyName = "Restaurante";
+            this.restauranteDataGridViewTextBoxColumn.HeaderText = "Restaurante";
+            this.restauranteDataGridViewTextBoxColumn.Name = "restauranteDataGridViewTextBoxColumn";
             // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form5";
             this.Text = "Form5";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.refeicaoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caloriasBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -106,9 +136,12 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Restautante;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Item;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Quantidade;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Calorias;
+        private System.Windows.Forms.BindingSource refeicaoBindingSource;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn caloriasDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn itemDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn quantidadeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn restauranteDataGridViewTextBoxColumn;
+        private System.Windows.Forms.BindingSource caloriasBindingSource;
     }
 }

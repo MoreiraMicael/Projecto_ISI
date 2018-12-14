@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projecto_ISI.ServiceReference1;
 
 namespace Projecto_ISI
 {
@@ -16,6 +17,28 @@ namespace Projecto_ISI
         public Form5()
         {
             InitializeComponent();
+            mostraRefeicoes();
+        }
+
+        public void mostraRefeicoes()
+        {
+            Service1Client client = new Service1Client();
+
+           
+
+            //richTextBox1.Text = client.GetRefeicoes().ToString();
+
+            //var refeicoesDataSet = client.GetRefeicoes();
+
+            /*var refeicoesDataSet = new DataTable("Refeicoes");
+            var refeicoes = client.GetRefeicoes();
+            foreach (var item in client.GetRefeicoes())
+            {
+                refeicoesDataSet.Rows.Add(item);
+            }
+
+            dataGridView1.DataSource = refeicoesDataSet;*/
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -85,11 +108,6 @@ namespace Projecto_ISI
 
 
         }
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
 
